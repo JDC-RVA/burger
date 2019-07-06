@@ -11,12 +11,27 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!--External Javascript-->
     <script src="/assets/js/burgers.js"></script>
+    {{!-- css --}}
+    <link rel="stylesheet" href="/public/assets/css/burger_style.css" type="text/css" />
 
 
 </head>
 
 <body>
-    {{{ body }}}
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" id="banner">
+            <img src="https://png2.kisspng.com/sh/7d51becd1775f39a7e31ff0abf7123f3/L0KzQYm3UsA0N5R8j5H0aYP2gLBuTfhidZN6itlucj3meLbskBVjfaNsfeQ2dnXqd7rsTfJ2ephqip9sYYL3f7F1TfNtcaEyeud7Z3X1g37qjPlxaaN5i58AYUe5RYq8V8Nma2JmSZC5OUC8QIeAVME2OWg8SKcANUm1RYi4TwBvbz==/kisspng-hamburger-cheeseburger-veggie-burger-cartoon-clip-burgers-cliparts-5a7659573ec1a1.0909067415177055592571.png"
+                id="burger-pic">
+            <h1>Eat Da Burger!</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            {{{ body }}}
+        </div>
+    </div>
 </body>
 
 </html>
